@@ -1,20 +1,23 @@
 {
-  "name": "SUBJAV - Phim JAV Vietsub",
-  "short_name": "SUBJAV",
-  "description": "Trang phim JAV vietsub miễn phí",
-  "start_url": "https://ohlala779.github.io/subjav.github.io/",
+  "name": "SubJav",
+  "short_name": "SubJav",
+  "description": "SubJav - Xem phim online chất lượng cao",
+  "start_url": "/subjav.github.io/",
+  "scope": "/subjav.github.io/",
   "display": "standalone",
-  "theme_color": "#e50914",
-  "background_color": "#1b1b1b",
+  "orientation": "portrait-primary",
+  "background_color": "#97332a",
+  "theme_color": "#111111",
+  "lang": "vi",
   "icons": [
     {
-      "src": "/icon.png",
+      "src": "https://subjav.mom/wp-content/uploads/2024/08/fav24.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/icon.png",
+      "src": "https://subjav.mom/wp-content/uploads/2024/08/fav24.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
