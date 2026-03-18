@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SUBJAV - Phim JAV Vietsub</title>
-  <link rel="manifest" href="/manifest.json">
-  <meta name="theme-color" content="#e50914">
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+ <link rel="manifest" href="/subjav.github.io/manifest.json">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="SubJav">
+<meta name="theme-color" content="#111111">
+<link rel="apple-touch-icon" href="https://subjav.mom/wp-content/uploads/2024/08/fav24.png">
   <style>
     body {
       margin: 0;
@@ -90,5 +89,10 @@
 
     redirect();
   </script>
+  <script>
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/subjav.github.io/sw.js', { scope: '/subjav.github.io/' });
+}
+</script>
 </body>
 </html>
